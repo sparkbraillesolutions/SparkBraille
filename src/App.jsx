@@ -12,7 +12,7 @@ import Team from './components/Team';
 import Footer from './components/Footer';
 
 // Utility function for smooth scrolling
-const scrollToSection = (sectionId:any) => {
+const scrollToSection = (sectionId) => {
   document.querySelector(sectionId).scrollIntoView({
     behavior: 'smooth'
   });

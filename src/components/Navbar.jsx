@@ -1,14 +1,8 @@
 import React from 'react'
 import { Menu, X } from 'lucide-react';
 
-interface NavbarProps {
 
-  onNavigate: (sectionId: any) => void;
-
-}
-
-
-const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
+const Navbar = ({ onNavigate }) => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isScrolled, setIsScrolled] = React.useState(false);
 

@@ -7,20 +7,20 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   
-  const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
+  const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
-interface FormData {
-    organization?: string;
-    firstName: string;
-    lastName: string;
-    email: string;
-    phone?: string;
-    location?: string;
-    deviceCount?: number;
-    sponsorship?: boolean;
-}
+// interface FormData {
+//     organization?: string;
+//     firstName: string;
+//     lastName: string;
+//     email: string;
+//     phone?: string;
+//     location?: string;
+//     deviceCount?: number;
+//     sponsorship?: boolean;
+// }
 
-const onSubmit = async (data: FormData) => {
+const onSubmit = async (data) => {
     setIsSubmitting(true);
     try {
         // Replace with your form submission logic
