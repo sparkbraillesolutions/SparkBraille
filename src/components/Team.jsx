@@ -8,7 +8,7 @@ const Team = () => {
       university: "University of Chittagong",
       experience: "1+",
       experienceDetails: "year experience on managing Finance in different clubs and organizations.",
-      image: "/images/team/tonmoy.png"
+      image: "/SparkBraille/images/team/tonmoy.png"
     },
     {
       name: "Falgoon Sen Apu",
@@ -17,7 +17,7 @@ const Team = () => {
       experience: "3+",
       experienceDetails: "Years of Experience in Embedded System Development",
       position: "Associate Engineer, Hardware Department (R&D) THINK LTD.",
-      image: "/images/team/falgoon.jpg"
+      image: "/SparkBraille/images/team/falgoon.jpg"
     },
     {
       name: "Atanu Kumar Dey",
@@ -26,7 +26,7 @@ const Team = () => {
       experience: "2+",
       experienceDetails: "Years of Experience in Embedded System Development",
       position: "Firmware Development Engineer, Hardware Department (R&D) THINK LTD.",
-      image: "/images/team/atanu.jpg"
+      image: "/SparkBraille/images/team/atanu.jpg"
     },
     {
       name: "Mohaimen Sarker",
@@ -35,7 +35,7 @@ const Team = () => {
       experience: "2+",
       experienceDetails: "year experience on outreach and communication management in different university clubs.",
       position: "Former instructor at Programming Hero",
-      image: "/images/team/mohaimen.png"
+      image: "/SparkBraille/images/team/mohaimen.png"
     },
     {
       name: "Mohammad Fahim Foisal",
@@ -43,7 +43,7 @@ const Team = () => {
       university: "University of Chittagong",
       experience: "2+",
       experienceDetails: "year experience in web development and user experience research.",
-      image: "/images/team/fahim.png"
+      image: "/SparkBraille/images/team/fahim.png"
     }
   ];
 
