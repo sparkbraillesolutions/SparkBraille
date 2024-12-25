@@ -7,7 +7,7 @@ import PilotTesting from './components/PilotTesting';
 import SDGGoals from './components/SDGGoals';
 import Updates from './components/Updates';
 import Contact from './components/Contact';
-import Partners from './components/Partners.tsx';
+// import Partners from './components/Partners.tsx';
 import Team from './components/Team';
 import Footer from './components/Footer';
 
