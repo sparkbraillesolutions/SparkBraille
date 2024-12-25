@@ -1,6 +1,6 @@
 {
   "name": "spark-braille-website",
-  "homepage": "https://sparkbraillesolutions.github.io/SparkBraille",
+  "homepage": "https://sparkbraillesolutions.github.io/SparkBraille/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
